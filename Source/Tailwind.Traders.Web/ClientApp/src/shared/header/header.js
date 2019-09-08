@@ -113,9 +113,7 @@ class Header extends Component {
                             <Link className="main-nav__item" to="/list/diytools">
                                 {t('shared.header.diytools')}
                             </Link>
-                            <Link className="main-nav__item" to="http://zswqce7g1jnb3zkv.mikecrm.com/p1hfxro">
-                                活动
-                             </Link>
+                            <a class="main-nav__item" href="http://zswqce7g1jnb3zkv.mikecrm.com/p1hfxro">activity</a>
                             <div className="main-nav__actions">
                                 <Link className="main-nav__item" to="/profile">
                                     {t('shared.header.profile')}
